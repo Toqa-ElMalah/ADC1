@@ -1,10 +1,8 @@
-#ifndef ADC_H_
-#define ADC_H_
+#ifndef ADC_H
+#define ADC_H
 
 
-void ADC_vinit(unsigned char pinnumber);
+void ADC_init(unsigned char pinnumber);
 unsigned short ADC_u16Read(unsigned char pinnumber);
 
-
-
-#endif /* ADC_H_ */
+#endif 
